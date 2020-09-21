@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+img{
+	max-width: 100%
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 70px 50px;
+}
+.fcol{
+    width: 25%;
+    flex: 0 0 auto;
+    padding: 0 20px;
+}
+header{
+
+background: #7f56f5;
+
+padding: 25px 0;
+}
+.logo{
+    width: 20%;
+    flex: 0 0 auto;
+}
+.logo a{}
+.logo img{}
+nav{
+    width: 80%;
+    flex: 0 0 auto;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+	   background: #5E2CED;
+}
+
+.banner-content{
+    text-align: center;
+    padding: 100px 0;
+    max-width: 700px;
+    margin: auto;
+}
+.banner-content h1{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.banner-content p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+/*** feature-section ***/
+.feature-section{
+    padding: 50px 0;
+}
+.feature-content{}
+.feature-content img{}
+.feature-content h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 25px 0;
+    line-height: 1.6;
+    color: #222D39;
+}
+.feature-content p{
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 100;
+    color: #222D39;
+}
+.feature-content a{
+	background: #5E2CED;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 25px;
+    border-radius: 6px;
+}
+
+.feature-img{}
+.feature-img img{}
+
+
+
+/******* footer *******/
+footer{
+    background-color: #F5F5FA;
+    padding-top: 100px;
+}
+.fcontent{}
+.fcontent a{}
+.fcontent a img{}
+
+
+
+
+.fcontent p{
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 100;
+    color: #222D39;
+}
+.fcol h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #222D39;
+    margin-bottom: 10px;
+}
+.fcol ul{}
+.fcol ul li{
+    list-style: none;
+}
+.fcol ul li a{
+    display: block;
+    text-decoration: none;
+    color: #222D39;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 7px 0;
+}
+.fcol ul li a:hover{}
+footer img{}
+.foot{
+	padding: 30px 0;
+	background: #7f56f5;
+	text-align: center;
+}
+.foot p{
+	color: #ffffff;
+	font-size: 14px;
+}
+.foot p a{
+	padding: 0 5px;
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
